@@ -1,5 +1,6 @@
 import './App.css'
-import Landing from './pages/Landing'
+import Info from './components/Info';
+import Landing from './components/Landing'
 import NavBar from './components/NavBar';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className='contenedorPadre' >
       <NavBar />
       <Landing />
+      <Info />
     </div>
   )
 }

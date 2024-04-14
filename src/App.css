@@ -1,6 +1,6 @@
 :root{
   --primario: #000000;
-  --secundario: #FFC107;
+  --secundario: #ffc107;
   --letras: #ffffff;
 }
 
@@ -8,8 +8,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
   color: var(--letras);
 }
 
@@ -53,11 +51,19 @@ a:hover {
 }
 
 header{
-  height: 90vh;
+  height: 100vh;
   width: 90%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-items: center;
+}
+
+.conjunto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info{
@@ -74,6 +80,7 @@ header{
 .info p{
   font-family: sans-serif;
   line-height: 1.5;
+  width: 70%;
 }
 
 .info button{
@@ -94,18 +101,37 @@ header{
   color: var(--letras);
 }
 
-.imag-cerveza{
-  height: 80%;
-  margin-left: -30%;
-}
-
-.imag-alitas{
-  height: 50%;
-  margin-top: 40%;
-  margin-left: -25%;
-}
-
 .imagenes{
   display: flex;
-  width: 40%;
+  width: 42%;
+}
+
+.imagenes img{
+  width: 200px;
+  margin-left: -100px;
+}
+
+.flechas{
+  margin-top: 50px;
+}
+
+.informacion{
+  height: 200px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.informacion article{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.informacion h2{
+  font-size: 30px;
 }
